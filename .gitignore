@@ -1,0 +1,38 @@
+# Godot files
+.godot/
+.import/
+export.cfg
+export_presets.cfg
+.tmp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.exe
+*.pdb
+*.dll
+*.o
+*.obj
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.orig
+
+# Log files
+*.log

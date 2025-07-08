@@ -1,0 +1,74 @@
+{
+  "races": [
+    {
+      "id": "human",
+      "name": "Umano",
+      "description": "Versatili e adattabili, gli umani di Milindor sono la razza più diffusa. Eccellono nel commercio, nella diplomazia e nell'apprendimento rapido.",
+      "traits": [
+        "Versatilità",
+        "Adattabilità",
+        "Ambizione"
+      ],
+      "bonuses": {
+        "all_stats": 1
+      }
+    },
+    {
+      "id": "elf",
+      "name": "Elfo",
+      "description": "Creature immortali legate alla natura e alla magia. Gli elfi di Milindor custodiscono antichi segreti e vivono in armonia con la foresta.",
+      "traits": [
+        "Longevità",
+        "Affinità Magica",
+        "Grazia Naturale"
+      ],
+      "bonuses": {
+        "magic": 2,
+        "agility": 1
+      }
+    },
+    {
+      "id": "dwarf",
+      "name": "Nano",
+      "description": "Maestri artigiani e guerrieri coraggiosi. I nani di Milindor vivono nelle montagne e sono famosi per le loro abilità nella forgiatura.",
+      "traits": [
+        "Robustezza",
+        "Maestria Artigianale",
+        "Coraggio"
+      ],
+      "bonuses": {
+        "strength": 2,
+        "constitution": 1
+      }
+    },
+    {
+      "id": "halfling",
+      "name": "Halfling",
+      "description": "Piccoli di statura ma grandi di cuore. Gli halfling sono noti per la loro fortuna, agilità e amore per la buona cucina.",
+      "traits": [
+        "Fortuna",
+        "Agilità",
+        "Ospitalità"
+      ],
+      "bonuses": {
+        "luck": 2,
+        "agility": 1
+      }
+    },
+    {
+      "id": "dragonborn",
+      "name": "Dragonide",
+      "description": "Discendenti degli antichi draghi, possiedono scaglie metalliche e possono soffiare energia elementale.",
+      "traits": [
+        "Sangue Draconico",
+        "Soffio Elementale",
+        "Scaglie Protettive"
+      ],
+      "bonuses": {
+        "strength": 1,
+        "magic": 1,
+        "constitution": 1
+      }
+    }
+  ]
+}

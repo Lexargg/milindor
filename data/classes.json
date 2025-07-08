@@ -1,0 +1,84 @@
+{
+  "classes": [
+    {
+      "id": "warrior",
+      "name": "Guerriero",
+      "description": "Maestro delle armi e della tattica militare. I guerrieri di Milindor sono la spina dorsale degli eserciti e i protettori dei deboli.",
+      "primary_stats": ["strength", "constitution"],
+      "abilities": [
+        "Maestria nelle Armi",
+        "Resistenza al Dolore",
+        "Comando Tattico"
+      ],
+      "equipment": [
+        "Spada Lunga",
+        "Armatura di Piastre",
+        "Scudo"
+      ]
+    },
+    {
+      "id": "mage",
+      "name": "Mago",
+      "description": "Tessitore di magie arcane e custode di conoscenze ancestrali. I maghi manipolano le forze elementali per proteggere o distruggere.",
+      "primary_stats": ["intelligence", "magic"],
+      "abilities": [
+        "Incantesimi Elementali",
+        "Lettura Magica",
+        "Rituali Arcani"
+      ],
+      "equipment": [
+        "Bastone Magico",
+        "Libro degli Incantesimi",
+        "Componenti Magiche"
+      ]
+    },
+    {
+      "id": "rogue",
+      "name": "Ladro",
+      "description": "Ombra silenziosa che si muove nell'oscurità. I ladri eccellono nell'infiltrazione, nel furto e negli attacchi a sorpresa.",
+      "primary_stats": ["agility", "dexterity"],
+      "abilities": [
+        "Movimento Silenzioso",
+        "Scassinare Serrature",
+        "Attacco Furtivo"
+      ],
+      "equipment": [
+        "Pugnali Gemelli",
+        "Armatura di Cuoio",
+        "Attrezzi da Scasso"
+      ]
+    },
+    {
+      "id": "cleric",
+      "name": "Chierico",
+      "description": "Servitore del divino che canalizza il potere degli dei. I chierici guariscono gli alleati e scacciano le creature delle tenebre.",
+      "primary_stats": ["wisdom", "constitution"],
+      "abilities": [
+        "Guarigione Divina",
+        "Benedizioni",
+        "Scacciare Non-morti"
+      ],
+      "equipment": [
+        "Mazza Benedetta",
+        "Simbolo Sacro",
+        "Armatura a Scaglie"
+      ]
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "description": "Guardiano della natura e esperto tracciatore. I ranger proteggono le terre selvagge e cacciano le creature pericolose.",
+      "primary_stats": ["dexterity", "wisdom"],
+      "abilities": [
+        "Tracciamento",
+        "Tiro con l'Arco",
+        "Sopravvivenza"
+      ],
+      "equipment": [
+        "Arco Lungo",
+        "Frecce Argentate",
+        "Armatura di Cuoio Borchiato"
+      ]
+    }
+  ]
+}
