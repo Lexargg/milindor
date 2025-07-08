@@ -6,8 +6,6 @@
 
 **Prototipo interattivo** del libro-game ambientato nel mondo fantasy di Milindor, sviluppato in Godot Engine.
 
-> 🚀 **Evoluzione del progetto**: Questo è il prototipo Godot che evolve dal [generatore di personaggi Flutter](../Milindor)
-
 ## 🎯 Obiettivi del Prototipo
 
 ### ✨ Features Implementate
