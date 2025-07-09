@@ -12,6 +12,34 @@ var current_story_node = 0
 var story_data = []
 var character_data = {}
 
+# Scenari disponibili (importati da Milindor Flutter)
+var available_scenarios = [
+	{
+		"name": "La Storiella",
+		"description": "Introduzione breve alla storia di Milindor (Livelli 1–10). Ideale per nuovi giocatori.",
+		"choices": [
+			{"text": "Inizia l'avventura", "next": 1},
+			{"text": "Esplora il villaggio", "next": 2}
+		]
+	},
+	{
+		"name": "Il Racconto",
+		"description": "Campagna estesa che copre i livelli 1–20 con Classi di Prestigio e scelte ramificate.",
+		"choices": [
+			{"text": "Accetta la missione", "next": 3},
+			{"text": "Rifiuta e cerca risposte", "next": 4}
+		]
+	},
+	{
+		"name": "L'Epopea",
+		"description": "Esperienza completa 1–30 con Percorsi di Ascensione e minacce di portata cosmica.",
+		"choices": [
+			{"text": "Sfida il destino", "next": 5},
+			{"text": "Cerca alleati", "next": 6}
+		]
+	},
+]
+
 func _ready():
 	print("Story Screen - Inizializzazione")
 	character_data = GameManager.get_current_character()
@@ -20,43 +48,8 @@ func _ready():
 	_show_current_node()
 
 func _load_story_data():
-	# Storia di esempio per Milindor
-	story_data = [
-		{
-			"id": 0,
-			"text": "Ti risvegli in una taverna affollata di Milindor. La tua ultima memoria è di un lampo di luce magica. Un misterioso incappucciato si avvicina al tuo tavolo...",
-			"choices": [
-				{"text": "Ascolti quello che ha da dire", "next": 1},
-				{"text": "Ti alzi e te ne vai", "next": 2},
-				{"text": "Lo affronti direttamente", "next": 3}
-			]
-		},
-		{
-			"id": 1,
-			"text": "L'incappucciato sussurra: 'Il regno è in pericolo. Solo tu puoi fermare l'Ombra che avanza dal Nord.' Ti porge un antico medaglione...",
-			"choices": [
-				{"text": "Accetti la missione", "next": 4},
-				{"text": "Rifiuti e chiedi spiegazioni", "next": 5}
-			]
-		},
-		{
-			"id": 2,
-			"text": "Mentre esci dalla taverna, noti che le strade sono stranamente deserte. Un urlo echeggia nella notte...",
-			"choices": [
-				{"text": "Corri verso l'urlo", "next": 6},
-				{"text": "Ti nascondi nell'ombra", "next": 7}
-			]
-		},
-		{
-			"id": 3,
-			"text": "L'incappucciato sorride: 'Coraggio! Proprio quello che cercavo. Sei tu l'eroe di cui parlano le profezie.'",
-			"choices": [
-				{"text": "Chiedi delle profezie", "next": 8},
-				{"text": "Rimani scettico", "next": 9}
-			]
-		}
-		# Altri nodi della storia...
-	]
+	# Carica scenari disponibili
+	story_data = available_scenarios
 
 func _setup_ui():
 	if character_data.size() > 0:
@@ -104,4 +97,13 @@ func _on_choice_selected(next_node: int):
 	_show_current_node()
 
 func _on_back_pressed():
-	get_tree().change_scene_to_file("res://scenes/Main.tscn")
+	_transition_to_scene("res://scenes/Main.tscn")
+
+func _transition_to_scene(scene_path: String):
+	var fade_out = AnimationPlayer.new()
+	add_child(fade_out)
+	fade_out.play("fade_out")
+	fade_out.connect("animation_finished", self, "_on_animation_finished", [scene_path])
+
+func _on_animation_finished(scene_path: String):
+	get_tree().change_scene(scene_path)

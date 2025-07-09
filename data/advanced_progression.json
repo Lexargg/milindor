@@ -1,0 +1,185 @@
+{
+  "progression_system": {
+    "max_level": 50,
+    "multiclass_support": true,
+    "prestige_classes": true,
+    "ascension_paths": true,
+    "mythic_progression": true
+  },
+  "character_progression": {
+    "base_classes": [
+      {
+        "id": "warrior",
+        "name": "Guerriero",
+        "type": "martial",
+        "hit_die": "d12",
+        "skill_points_per_level": 2,
+        "base_attack_bonus": "full",
+        "saves": {"fortitude": "good", "reflex": "poor", "will": "poor"},
+        "class_features": {
+          "1": ["Weapon Proficiency", "Armor Proficiency"],
+          "2": ["Combat Feat"],
+          "3": ["Weapon Specialization"],
+          "4": ["Combat Feat"],
+          "5": ["Advanced Tactics"],
+          "10": ["Legendary Warrior"],
+          "15": ["Weapon Master"],
+          "20": ["Perfect Warrior"]
+        },
+        "feat_progression": "every_2_levels",
+        "archetypes": ["champion", "berserker", "tactician", "weapon_master"]
+      },
+      {
+        "id": "wizard",
+        "name": "Mago",
+        "type": "arcane",
+        "hit_die": "d6",
+        "skill_points_per_level": 4,
+        "base_attack_bonus": "poor",
+        "saves": {"fortitude": "poor", "reflex": "poor", "will": "good"},
+        "spells_per_day": {
+          "1": {"0": 3, "1": 1},
+          "2": {"0": 4, "1": 2},
+          "3": {"0": 4, "1": 2, "2": 1},
+          "20": {"0": 4, "1": 4, "2": 4, "3": 4, "4": 4, "5": 4, "6": 4, "7": 4, "8": 4, "9": 4}
+        },
+        "class_features": {
+          "1": ["Spellcasting", "Cantrips", "Spell Schools"],
+          "5": ["Spell Focus"],
+          "10": ["Metamagic Master"],
+          "15": ["Archmage Abilities"],
+          "20": ["Master of Magic"]
+        },
+        "schools": ["evocation", "illusion", "necromancy", "enchantment", "divination", "abjuration", "transmutation", "conjuration"],
+        "archetypes": ["elementalist", "necromancer", "battle_mage", "lore_keeper"]
+      }
+    ],
+    "prestige_classes": [
+      {
+        "id": "dragon_disciple",
+        "name": "Discepolo del Drago",
+        "requirements": {
+          "base_attack_bonus": 5,
+          "skills": {"Knowledge (Arcana)": 8},
+          "special": "Draconic bloodline or dragon ancestry"
+        },
+        "levels": 10,
+        "features": {
+          "1": ["Dragon Resistance", "Natural Armor +1"],
+          "3": ["Breath Weapon"],
+          "7": ["Dragon Wings"],
+          "10": ["Dragon Form"]
+        }
+      }
+    ],
+    "mythic_paths": [
+      {
+        "id": "dream_weaver",
+        "name": "Tessitore di Sogni",
+        "description": "Master of oneiromancy who learns to shape reality through dream logic",
+        "cosmic_connection": "magnamount_the_wise_dreamer",
+        "abilities": {
+          "1": ["Dream Sight", "Reality Anchor", "Lucid Awakening"],
+          "2": ["Nightmare Immunity", "Dream Step"],
+          "3": ["Reality Shaping", "Emotion Channeling"],
+          "6": ["Paradox Weaving", "Memory Access"],
+          "10": ["Dream Lord Ascension", "Reality Stabilization"]
+        },
+        "ultimate_goal": "Become a guardian of the Dreamer's sleep"
+      },
+      {
+        "id": "void_walker",
+        "name": "Camminatore del Vuoto",
+        "description": "Dangerous path that grants power over nothingness and non-existence",
+        "cosmic_connection": "vorthak_the_consuming_void",
+        "abilities": {
+          "1": ["Void Sight", "Existence Resistance", "Entropy Touch"],
+          "2": ["Phase Through Reality", "Nothingness Cloak"],
+          "3": ["Void Summons", "Reality Erasure"],
+          "6": ["Absolute Void", "Anti-Magic Mastery"],
+          "10": ["Become Living Void", "Reality Annihilation"]
+        },
+        "corruption_risk": "High - may lose sense of self in the void",
+        "ultimate_threat": "Could accidentally wake the Dreamer"
+      },
+      {
+        "id": "crown_fragment_heir",
+          "name": "Erede del Frammento della Corona",
+          "description": "Chosen by one of the Shattered Crown fragments to be their mortal champion",
+          "selection_process": "Divine vision during near-death experience",
+          "fragment_types": [
+            {
+              "fragment": "verdanis_shard",
+              "abilities": ["Infinite Growth", "Life Creation", "Nature Mastery", "Regeneration"],
+              "corruption_risk": "Uncontrolled growth, becoming plant-like"
+            },
+            {
+              "fragment": "vorthak_shard", 
+              "abilities": ["Void Control", "Life Drain", "Reality Erasure", "Undead Mastery"],
+              "corruption_risk": "Loss of empathy, becoming hollow inside"
+            }
+          ],
+          "ultimate_destiny": "May be called to participate in the reunification of the Crown"
+        }
+      },
+      {
+        "id": "kai_lord_reborn",
+        "name": "Signore Kai Risorto",
+        "description": "The classical path of the Kai Lords, servants of Magnamount",
+        "requirements": ["Good alignment", "Warrior or Monk base class"],
+        "cosmic_connection": "Direct blessing from Magnamount the Wise Dreamer",
+        "disciplines": {
+          "basic_disciplines": [
+            "Camouflage", "Hunting", "Sixth Sense", "Tracking", "Healing",
+            "Weaponskill", "Mindshield", "Animal Kinship", "Mind Over Matter", "Lore-circles"
+          ],
+          "grand_master_disciplines": [
+            "Weapon Mastery", "Animal Control", "Curing", "Invisibility", "Huntmastery",
+            "Pathsmanship", "Psi-screen", "Nexus", "Divination", "Kai-surge"
+          ],
+          "new_order_disciplines": [
+            "Dream Walking", "Reality Anchoring", "Cosmic Awareness", "Void Resistance",
+            "Fragment Communication", "Nightmare Purification", "Timeline Perception"
+          ]
+        },
+        "abilities": {
+          "1": ["Basic Kai Discipline", "Magnamount's Blessing"],
+          "3": ["Second Kai Discipline", "Dream Resistance"],
+          "5": ["Third Kai Discipline", "Void Sight"],
+          "10": ["Grand Master Discipline", "Reality Stabilization"],
+          "15": ["New Order Discipline", "Fragment Resistance"],
+          "20": ["Kai Lord Mastery", "Dream Lord Status"]
+        }
+      }
+    ],
+    "ascension_tiers": [
+      {
+        "tier": 1,
+        "name": "Mortale",
+        "level_range": "1-20",
+        "description": "Il percorso dell'eroe mortale"
+      },
+      {
+        "tier": 2,
+        "name": "Leggendario", 
+        "level_range": "21-30",
+        "requirements": "Complete Epic Quest",
+        "description": "Trascendi i limiti mortali"
+      },
+      {
+        "tier": 3,
+        "name": "Mitico",
+        "level_range": "31-40", 
+        "requirements": "Mythic Ascension Ritual",
+        "description": "Diventa una leggenda vivente"
+      },
+      {
+        "tier": 4,
+        "name": "Divino",
+        "level_range": "41-50",
+        "requirements": "Divine Spark Acquisition",
+        "description": "Ascendi alla divinità"
+      }
+    ]
+  }
+}

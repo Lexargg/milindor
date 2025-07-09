@@ -1,0 +1,130 @@
+{
+  "advanced_races": {
+    "core_races": [
+      {
+        "id": "human_variants",
+        "name": "Umano",
+        "subtypes": [
+          {
+            "id": "aetherian",
+            "name": "Aeteriano",
+            "description": "Umani esposti alle energie planari",
+            "bonuses": {"intelligence": 2, "wisdom": 1, "constitution": -1},
+            "special_abilities": ["Planar Sight", "Energy Resistance"],
+            "cultural_background": "scholars_of_the_void"
+          },
+          {
+            "id": "shadowborn",
+            "name": "Nato dall'Ombra",
+            "description": "Umani toccati dalle energie del Piano delle Ombre",
+            "bonuses": {"dexterity": 2, "charisma": 1, "constitution": -1},
+            "special_abilities": ["Shadow Step", "Darkvision 60ft"],
+            "cultural_background": "shadow_cults"
+          }
+        ],
+        "racial_archetypes": [
+          {
+            "id": "human_champion",
+            "name": "Campione Umano",
+            "description": "Rappresenta il meglio dell'umanità",
+            "class_restrictions": ["warrior", "paladin"],
+            "special_features": ["Inspiring Presence", "Human Determination"]
+          }
+        ]
+      },
+      {
+        "id": "elven_courts",
+        "name": "Corti Elfiche",
+        "subtypes": [
+          {
+            "id": "high_elf",
+            "name": "Alto Elfo",
+            "description": "Nobili elfi delle torri di cristallo",
+            "bonuses": {"intelligence": 2, "dexterity": 2, "constitution": -2},
+            "special_abilities": ["Spell Resistance", "Keen Senses", "Elven Magic"],
+            "starting_spells": ["Detect Magic", "Prestidigitation"]
+          },
+          {
+            "id": "dark_elf",
+            "name": "Elfo Oscuro",
+            "description": "Elfi bannati che abbracciarono le tenebre",
+            "bonuses": {"dexterity": 2, "charisma": 2, "constitution": -2},
+            "special_abilities": ["Superior Darkvision", "Spell Resistance", "Drow Magic"],
+            "weakness": "Light Sensitivity",
+            "starting_spells": ["Dancing Lights", "Faerie Fire", "Darkness"]
+          },
+          {
+            "id": "wood_elf",
+            "name": "Elfo dei Boschi",
+            "description": "Guardiani delle foreste primordiali",
+            "bonuses": {"dexterity": 2, "wisdom": 2, "constitution": -2},
+            "special_abilities": ["Woodland Stride", "Wild Empathy", "Keen Senses"],
+            "weapon_proficiency": ["longbow", "shortbow", "longsword", "rapier"]
+          }
+        ]
+      }
+    ],
+    "exotic_races": [
+      {
+        "id": "tiefling_variants",
+        "name": "Stirpe Infernale",
+        "description": "Discendenti di mortali e demoni",
+        "heritage_types": [
+          {
+            "id": "abyssal",
+            "name": "Stirpe Abissale",
+            "demon_lord": "Demogorgon",
+            "bonuses": {"strength": 2, "charisma": 2, "wisdom": -2},
+            "abilities": ["Rage", "Natural Weapons", "Abyssal Resistance"]
+          },
+          {
+            "id": "infernal",
+            "name": "Stirpe Infernale",
+            "demon_lord": "Asmodeus", 
+            "bonuses": {"intelligence": 2, "charisma": 2, "wisdom": -2},
+            "abilities": ["Silver Tongue", "Hellfire", "Infernal Resistance"]
+          }
+        ]
+      },
+      {
+        "id": "aasimar",
+        "name": "Aasimar",
+        "description": "Discendenti di mortali e celestiali",
+        "celestial_heritage": [
+          {
+            "id": "solar",
+            "name": "Stirpe Solare",
+            "bonuses": {"wisdom": 2, "charisma": 2, "constitution": -2},
+            "abilities": ["Healing Touch", "Daylight", "Celestial Resistance"]
+          }
+        ]
+      }
+    ],
+    "monstrous_races": [
+      {
+        "id": "dragonborn_advanced",
+        "name": "Progenie del Drago",
+        "dragon_types": [
+          {
+            "id": "chromatic_red",
+            "name": "Drago Rosso",
+            "element": "fire",
+            "bonuses": {"strength": 2, "charisma": 2, "dexterity": -2},
+            "breath_weapon": "fire_cone",
+            "resistance": "fire",
+            "personality": "aggressive_domineering"
+          },
+          {
+            "id": "metallic_gold",
+            "name": "Drago Dorato", 
+            "element": "fire",
+            "bonuses": {"strength": 2, "wisdom": 2, "dexterity": -2},
+            "breath_weapon": "fire_cone_or_gas",
+            "resistance": "fire",
+            "personality": "noble_lawful"
+          }
+        ]
+      }
+    ]
+  }
+}
