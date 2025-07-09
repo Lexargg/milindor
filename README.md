@@ -9,7 +9,7 @@
 
 > 🤖 **AI-Powered Development**: This project is created entirely with AI assistance, featuring original cosmology, narrative systems, and gameplay mechanics inspired by the political complexity of EU4's Anbennar mod.
 
-## � World of Milindor
+## 🌍 World of Milindor
 
 ### 🏛️ Divine Cosmology
 Milindor is a world shaped by the eternal conflicts between **Six Divine Pantheons**, each vying for cosmic dominance. The world spans **Seven Continents**, each influenced by different divine powers and their endless wars.
