@@ -1,0 +1,25 @@
+{
+  "rules": [
+    "Tutti i file devono essere localizzati in inglese e italiano.",
+    "I nomi devono essere completamente originali e non riconducibili a fonti protette.",
+    "Usare prefissi e suffissi coerenti per i nomi.",
+    "Aggiornare regolarmente i file di mapping tra NPC originali e tematizzati.",
+    "Suddividere i file in cartelle tematiche per facilitare la gestione.",
+    "Eseguire controlli regolari per evitare duplicati nei file.",
+    "Verificare la coerenza narrativa tra lore, NPC e missioni.",
+    "Assicurarsi che ogni missione sia collegata a un NPC e a un continente.",
+    "Verificare che i nuovi NPC siano coerenti con la lore dei continenti.",
+    "Assicurarsi che il glossario sia aggiornato con tutti i termini chiave.",
+    "Verifica che la struttura del progetto sia conforme alle regole stabilite.",
+    "Assicurarsi che il README sia aggiornato con tutte le informazioni rilevanti.",
+    "Assicurarsi che la cosmologia sia coerente con la lore generale.",
+    "Verificare che ogni forza cosmica abbia un impatto narrativo nel gioco.",
+    "Verifica che ogni continente abbia una storia e una leggenda unica.",
+    "Assicurarsi che le nuove divinità siano integrate nella cosmologia esistente.",
+    "Assicurarsi che il sistema di progressione sia bilanciato e coerente con la lore.",
+    "Verificare che gli eventi dinamici abbiano un impatto significativo sul mondo di gioco.",
+    "Assicurarsi che ogni nuovo continente abbia una lore completa e coerente.",
+    "Verificare che i nuovi NPC e missioni siano integrati nella cosmologia esistente.",
+    "Preparare una versione demo del progetto per il lancio."
+  ]
+}

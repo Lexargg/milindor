@@ -1,0 +1,14 @@
+{
+  "eventi": [
+    {
+      "titolo": "Invasione delle Pianure Dorate",
+      "descrizione": "Gli invasori minacciano la prosperità di Thalindor. I giocatori devono respingere l'attacco.",
+      "impatto": "Le rotte commerciali vengono interrotte se l'evento fallisce."
+    },
+    {
+      "titolo": "Disturbo Mistico a Sylvaria",
+      "descrizione": "Forze magiche disturbano l'equilibrio della Foresta di Sylvarion. I giocatori devono ripristinare l'armonia.",
+      "impatto": "Gli spiriti diventano ostili se l'evento fallisce."
+    }
+  ]
+}

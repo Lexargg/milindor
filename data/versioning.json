@@ -1,0 +1,9 @@
+{
+  "version": "1.1.0",
+  "changes": [
+    "Aggiornamento del README con le regole e la struttura del progetto.",
+    "Verifica della struttura della cartella principale.",
+    "Creazione di file localizzati per progressione ed eventi in italiano.",
+    "Aggiornamento del glossario con nuovi termini legati agli eventi."
+  ]
+}

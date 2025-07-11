@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Secrets of the Forgia Celeste",
+    "description": "Uncover the ancient techniques of crafting legendary artifacts in Elarion.",
+    "npc": "Elarion the Luminary",
+    "continent": "Elarion",
+    "objectives": [
+      "Gather rare minerals from the Picco di Aurion",
+      "Consult Elarion to learn the crafting techniques",
+      "Forge a legendary artifact"
+    ]
+  },
+  {
+    "title": "The Prosperity of Aurith",
+    "description": "Help Thalor the Golden expand the trade routes and ensure prosperity for Thalindor.",
+    "npc": "Thalor the Golden",
+    "continent": "Thalindor",
+    "objectives": [
+      "Negotiate with neighboring merchants",
+      "Secure the safety of trade caravans",
+      "Establish new trade agreements"
+    ]
+  },
+  {
+    "title": "Defenders of Sylvaris",
+    "description": "Assist Sylvaris the Enchanter in protecting the magical secrets of Feyloria.",
+    "npc": "Sylvaris the Enchanter",
+    "continent": "Feyloria",
+    "objectives": [
+      "Investigate disturbances in the Foresta di Sylvaris",
+      "Defeat invaders seeking magical artifacts",
+      "Strengthen the bonds with forest spirits"
+    ]
+  },
+  {
+    "title": "The Flames of Drakoria",
+    "description": "Join Drakorian the Flame in defending the ancient dragons and their treasures.",
+    "npc": "Drakorian the Flame",
+    "continent": "Drakoria",
+    "objectives": [
+      "Track down poachers in the Monte Drakorian",
+      "Recover stolen dragon eggs",
+      "Protect the dragons from further harm"
+    ]
+  },
+  {
+    "title": "Mysteries of the Mare di Lythorion",
+    "description": "Aid Nythera the Mystic in preserving the healing properties of Nythoria's sacred waters.",
+    "npc": "Nythera the Mystic",
+    "continent": "Nythoria",
+    "objectives": [
+      "Investigate pollution in the Mare di Lythorion",
+      "Cleanse the waters using ancient rituals",
+      "Ensure the safety of the sacred waters"
+    ]
+  },
+  {
+    "title": "Balance of the Cerchio Verde",
+    "description": "Support Zarathen the Green in maintaining the balance of nature in Zarion.",
+    "npc": "Zarathen the Green",
+    "continent": "Zarion",
+    "objectives": [
+      "Repel invaders in the Foresta di Eldarion",
+      "Restore damaged ecosystems",
+      "Perform the ritual of the Cerchio Verde"
+    ]
+  },
+  {
+    "title": "The Battle of Aurith",
+    "description": "Assist Aurith the Protector in defending the Golden Plains from invaders.",
+    "npc": "Aurith the Protector",
+    "continent": "Thalindor",
+    "objectives": [
+      "Repel the invading forces",
+      "Secure the safety of the Piana di Aurith",
+      "Strengthen the defenses of the region"
+    ]
+  },
+  {
+    "title": "Wisdom of Sylvarion",
+    "description": "Seek guidance from Sylvarion the Sage to uncover ancient secrets of Sylvaria.",
+    "npc": "Sylvarion the Sage",
+    "continent": "Sylvaria",
+    "objectives": [
+      "Explore the Foresta di Sylvarion",
+      "Recover lost scrolls of wisdom",
+      "Learn the teachings of Sylvarion"
+    ]
+  },
+  {
+    "title": "Secrets of the Floating Isles",
+    "description": "Assist Aetherion the Seer in uncovering the mysteries of Aetherion.",
+    "npc": "Aetherion the Seer",
+    "continent": "Aetherion",
+    "objectives": [
+      "Explore the Floating Isles",
+      "Recover ancient artifacts",
+      "Learn the secrets of the skies"
+    ]
+  },
+  {
+    "title": "Secrets of the Volcanic Forges",
+    "description": "Assist Ignis the Flamekeeper in uncovering the mysteries of the volcanic forges.",
+    "npc": "Ignis the Flamekeeper",
+    "continent": "Ignis",
+    "objectives": [
+      "Explore the volcanic regions",
+      "Recover rare minerals",
+      "Learn the secrets of the volcanic forges"
+    ]
+  }
+]

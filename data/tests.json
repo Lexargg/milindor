@@ -1,0 +1,16 @@
+{
+  "tests": [
+    {
+      "test": "Duplicati",
+      "description": "Verifica che non ci siano duplicati nei file NPC, missioni e lore."
+    },
+    {
+      "test": "Coerenza narrativa",
+      "description": "Assicurarsi che lore, NPC e missioni siano coerenti tra loro."
+    },
+    {
+      "test": "Localizzazione",
+      "description": "Controllare che i file localizzati in italiano e inglese siano completi e corretti."
+    }
+  ]
+}

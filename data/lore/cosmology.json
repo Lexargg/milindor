@@ -1,0 +1,35 @@
+{
+  "cosmology": {
+    "pantheon": [
+      {
+        "name": "Aurion",
+        "domain": "Knowledge and Mountains",
+        "description": "Protector of wisdom and creativity, worshipped by artisans and scholars."
+      },
+      {
+        "name": "Sylvaris",
+        "domain": "Nature and Magic",
+        "description": "Guardian of forests and magical secrets, revered by elves and druids."
+      },
+      {
+        "name": "Thalor",
+        "domain": "Prosperity and Plains",
+        "description": "Guardian of trade and agriculture, revered by merchants and farmers."
+      }
+    ],
+    "forces": [
+      {
+        "name": "Divine Resonance",
+        "description": "A magical force connecting the pantheon to the mortal realm."
+      },
+      {
+        "name": "Chaos Veil",
+        "description": "A disruptive force threatening the balance of the world."
+      },
+      {
+        "name": "Golden Harmony",
+        "description": "A force that ensures balance and prosperity in the mortal realm."
+      }
+    ]
+  }
+}

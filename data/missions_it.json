@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Segreti della Forgia Celeste",
+    "description": "Scopri le antiche tecniche per forgiare artefatti leggendari in Elarion.",
+    "npc": "Elarion il Luminoso",
+    "continent": "Elarion",
+    "objectives": [
+      "Raccogli minerali rari dal Picco di Aurion",
+      "Consulta Elarion per apprendere le tecniche di forgiatura",
+      "Forgia un artefatto leggendario"
+    ]
+  },
+  {
+    "title": "La Prosperità di Aurith",
+    "description": "Aiuta Thalor il Dorato a espandere le rotte commerciali e garantire prosperità a Thalindor.",
+    "npc": "Thalor il Dorato",
+    "continent": "Thalindor",
+    "objectives": [
+      "Negozia con i mercanti vicini",
+      "Assicura la sicurezza delle carovane commerciali",
+      "Stabilisci nuovi accordi commerciali"
+    ]
+  },
+  {
+    "title": "Difensori di Sylvaris",
+    "description": "Assisti Sylvaris l'Incantatore nella protezione dei segreti magici di Feyloria.",
+    "npc": "Sylvaris l'Incantatore",
+    "continent": "Feyloria",
+    "objectives": [
+      "Indaga sui disturbi nella Foresta di Sylvaris",
+      "Sconfiggi gli invasori in cerca di artefatti magici",
+      "Rafforza i legami con gli spiriti della foresta"
+    ]
+  }
+]

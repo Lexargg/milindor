@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Secrets of the Forgia Celeste",
+    "description": "Uncover the ancient techniques of crafting legendary artifacts in Elarion.",
+    "npc": "Elarion the Luminary",
+    "continent": "Elarion",
+    "objectives": [
+      "Gather rare minerals from the Picco di Aurion",
+      "Consult Elarion to learn the crafting techniques",
+      "Forge a legendary artifact"
+    ]
+  },
+  {
+    "title": "The Prosperity of Aurith",
+    "description": "Help Thalor the Golden expand the trade routes and ensure prosperity for Thalindor.",
+    "npc": "Thalor the Golden",
+    "continent": "Thalindor",
+    "objectives": [
+      "Negotiate with neighboring merchants",
+      "Secure the safety of trade caravans",
+      "Establish new trade agreements"
+    ]
+  },
+  {
+    "title": "Defenders of Sylvaris",
+    "description": "Assist Sylvaris the Enchanter in protecting the magical secrets of Feyloria.",
+    "npc": "Sylvaris the Enchanter",
+    "continent": "Feyloria",
+    "objectives": [
+      "Investigate disturbances in the Foresta di Sylvaris",
+      "Defeat invaders seeking magical artifacts",
+      "Strengthen the bonds with forest spirits"
+    ]
+  }
+]

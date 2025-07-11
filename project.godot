@@ -12,9 +12,9 @@ config_version=5
 
 config/name="Milindor - Book Game Edition"
 config/description="Interactive fantasy book game set in the world of Milindor"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/control.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://bpwnmmdfg31we"
 
 [display]
 

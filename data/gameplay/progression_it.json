@@ -1,0 +1,26 @@
+{
+  "progressione": {
+    "livelli": [
+      {
+        "livello": 1,
+        "descrizione": "Avventuriero principiante che esplora le basi del mondo.",
+        "ricompense": ["Equipaggiamento base", "Introduzione alla lore"]
+      },
+      {
+        "livello": 2,
+        "descrizione": "Avventuriero intermedio che approfondisce la conoscenza dei continenti.",
+        "ricompense": ["Equipaggiamento avanzato", "Accesso a nuove missioni"]
+      }
+    ],
+    "scelte": [
+      {
+        "scelta": "Proteggi le Pianure Dorate",
+        "impatto": "Rafforza le rotte commerciali e aumenta la prosperità di Thalindor."
+      },
+      {
+        "scelta": "Esplora la Foresta di Sylvarion",
+        "impatto": "Scopre segreti antichi e rafforza i legami con gli spiriti."
+      }
+    ]
+  }
+}

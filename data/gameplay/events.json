@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "title": "Invasion of the Golden Plains",
+      "description": "Invaders threaten the prosperity of Thalindor. Players must repel the attack.",
+      "impact": "Trade routes are disrupted if the event fails."
+    },
+    {
+      "title": "Mystical Disturbance in Sylvaria",
+      "description": "Magical forces disrupt the balance of the Foresta di Sylvarion. Players must restore harmony.",
+      "impact": "Spirits become hostile if the event fails."
+    }
+  ]
+}

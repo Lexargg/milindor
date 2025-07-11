@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgohg7s20iibw"]
+
+[ext_resource type="Script" uid="uid://cq8in6o7f8ufe" path="res://scripts/AIIntegration.gd" id="1_5p55f"]
+
+[node name="Control" type="Node"]
+script = ExtResource("1_5p55f")

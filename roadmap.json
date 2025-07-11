@@ -1,0 +1,58 @@
+{
+  "roadmap": [
+    {
+      "phase": "Phase 1: Foundation",
+      "tasks": [
+        "Organizzare la struttura del progetto in cartelle tematiche.",
+        "Creare file di base per lore, NPC, missioni e cosmologia.",
+        "Implementare le regole di coerenza e localizzazione."
+      ],
+      "deadline": "2025-07-31"
+    },
+    {
+      "phase": "Phase 2: Lore Expansion",
+      "tasks": [
+        "Espandere la descrizione di ciascun continente con eventi storici e leggende.",
+        "Introdurre nuove divinità e forze cosmiche nella cosmologia.",
+        "Sviluppare il sistema magico con incantesimi e artefatti unici."
+      ],
+      "deadline": "2025-08-31"
+    },
+    {
+      "phase": "Phase 3: NPC and Missions",
+      "tasks": [
+        "Creare NPC unici e tematizzati per ogni continente.",
+        "Sviluppare missioni legate ai conflitti e alla protezione delle risorse naturali.",
+        "Collegare NPC e missioni alla lore dei continenti."
+      ],
+      "deadline": "2025-09-30"
+    },
+    {
+      "phase": "Phase 4: Gameplay Systems",
+      "tasks": [
+        "Introdurre un sistema di progressione basato su scelte narrative.",
+        "Creare eventi dinamici che influenzano il mondo.",
+        "Testare e bilanciare il gameplay."
+      ],
+      "deadline": "2025-10-31"
+    },
+    {
+      "phase": "Phase 5: Localization and Documentation",
+      "tasks": [
+        "Tradurre tutti i contenuti in italiano e inglese.",
+        "Espandere il glossario con nuovi termini chiave.",
+        "Aggiornare regolarmente i file di mapping e versionamento."
+      ],
+      "deadline": "2025-11-30"
+    },
+    {
+      "phase": "Phase 6: Final Testing and Optimization",
+      "tasks": [
+        "Eseguire controlli regolari per evitare duplicati nei file.",
+        "Validare la coerenza narrativa tra lore, NPC e missioni.",
+        "Assicurarsi che tutte le traduzioni siano accurate."
+      ],
+      "deadline": "2025-12-31"
+    }
+  ]
+}

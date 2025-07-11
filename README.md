@@ -65,9 +65,9 @@ Milindor/
 │   ├── milindor_cosmology.json  # Divine pantheons & lore
 │   └── advanced_progression.json  # Mythic progression paths
 └── assets/               # Game resources
-    ├── images/           # Sprites and UI graphics
-    ├── audio/            # Music and sound effects
-    └── fonts/            # Typography assets
+	├── images/           # Sprites and UI graphics
+	├── audio/            # Music and sound effects
+	└── fonts/            # Typography assets
 ```
 
 ## 🚀 Getting Started
@@ -96,18 +96,18 @@ Milindor/
 
 ```mermaid
 graph TD
-    A[Main Menu] --> B[Character Creator]
-    A --> C[Story Mode]
-    B --> D[Choose Pantheon Alignment]
-    D --> E[Select Race & Class]
-    E --> C
-    C --> F[Interactive Narrative]
-    F --> G[Divine Choices]
-    G --> H[Pantheon Consequences]
-    H --> I[Mythic Progression]
-    I --> F
-    G --> J[Story Conclusion]
-    J --> A
+	A[Main Menu] --> B[Character Creator]
+	A --> C[Story Mode]
+	B --> D[Choose Pantheon Alignment]
+	D --> E[Select Race & Class]
+	E --> C
+	C --> F[Interactive Narrative]
+	F --> G[Divine Choices]
+	G --> H[Pantheon Consequences]
+	H --> I[Mythic Progression]
+	I --> F
+	G --> J[Story Conclusion]
+	J --> A
 ```
 
 ### 🎭 Character Creation
@@ -139,6 +139,27 @@ graph TD
 3. **Mythic Paths**: Create progression routes in `advanced_progression.json`
 4. **Narrative Branches**: Build complex story trees with divine consequences
 5. **Magic Schools**: Implement Divine Resonance magic system
+
+# Milindor Project
+
+## Struttura del Progetto
+- **data/**: Contiene file di lore, NPC, missioni e mapping.
+- **assets/**: Risorse grafiche e audio.
+- **scenes/**: Scene del gioco.
+- **scripts/**: Script per la logica del gioco.
+
+## Regole del Progetto
+- Tutti i file devono essere localizzati in inglese e italiano.
+- I nomi devono essere completamente originali e non riconducibili a fonti protette.
+- Usare prefissi e suffissi coerenti per i nomi.
+- Aggiornare regolarmente i file di mapping tra NPC originali e tematizzati.
+- Suddividere i file in cartelle tematiche per facilitare la gestione.
+- Eseguire controlli regolari per evitare duplicati nei file.
+- Verificare la coerenza narrativa tra lore, NPC e missioni.
+
+## Versionamento
+- Versione attuale: 1.0.0
+- Modifiche recenti: Aggiunta di missioni, glossario e mapping NPC.
 
 ## 🎨 Design Philosophy
 

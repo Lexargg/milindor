@@ -1,0 +1,50 @@
+{
+  "progression": {
+    "levels": [
+      {
+        "level": 1,
+        "description": "Beginner adventurer exploring the basics of the world.",
+        "rewards": ["Basic equipment", "Introduction to lore"]
+      },
+      {
+        "level": 2,
+        "description": "Intermediate adventurer gaining deeper knowledge of the continents.",
+        "rewards": ["Advanced equipment", "Access to new missions"]
+      },
+      {
+        "level": 3,
+        "description": "Experienced adventurer facing challenges in uncharted territories.",
+        "rewards": ["Rare artifacts", "Unlock special abilities"]
+      },
+      {
+        "level": 4,
+        "description": "Master adventurer unraveling the mysteries of the ancient world.",
+        "rewards": ["Legendary equipment", "Access to elite missions"]
+      }
+    ],
+    "choices": [
+      {
+        "choice": "Protect the Golden Plains",
+        "impact": "Strengthens trade routes and increases prosperity in Thalindor."
+      },
+      {
+        "choice": "Explore the Foresta di Sylvarion",
+        "impact": "Uncovers ancient secrets and strengthens bonds with spirits."
+      },
+      {
+        "choice": "Defend the Gates of Aetherion",
+        "impact": "Prevents hostile forces from invading the floating isles."
+      },
+      {
+        "choice": "Unite the Tribes of Eldoria",
+        "impact": "Forges alliances and strengthens the continent's defenses."
+      }
+    ],
+    "actions": [
+      "Attack",
+      "Defend",
+      "Trade",
+      "Explore"
+    ]
+  }
+}
